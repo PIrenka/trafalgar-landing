@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Mulish;
+  /* font-size: ; */
+  /* line-height: ; */
+  /* color: var(--minititles-color); */
+  /* background-color: var(--title-color);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;*/
+}
+
+:root {
+  --text-color: #7d7987;
+  --logo-color: #233348;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+/* ==================================================== */
+/* ========================HEADER====================== */
+/* ==================================================== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 56px;
+  padding-left: 9px;
+  padding-right: 5px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+
+  color: var(--logo-color);
+}
+.logo::before {
+  content: "T";
+  display: inline-flex;
+  width: 41px;
+  height: 41px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.27;
+  justify-content: center;
+  align-items: center;
+  background-color: #458ff6;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.site-nav {
+  display: flex;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.site-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus {
+  font-weight: 700;
+  opacity: 1;
+}
+/* ==================================================== */
+/* ========================HERO======================== */
+/* ==================================================== */
+/* * {
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  background-image: url("../images/trafalgar-hero-illustration.jpg");
+  width: 1600px;
+  height: 600px;
+} */
